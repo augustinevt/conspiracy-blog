@@ -1,1 +1,7 @@
 <h1>This is admin</h1>
+
+
+{{#each model as |post|}}
+  {{post-tile post=post update="update" }}
+  {{edit-post post=post update="update"}}
+{{/each}}

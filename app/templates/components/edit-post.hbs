@@ -1,0 +1,8 @@
+<h1>this is the edit component</h1>
+{{input value=title id="title" placeholder=post.title}}
+{{input value=body id="body" placeholder=post.body}}
+{{input value=category id="category" placeholder=post.category}}
+{{input value=image id="image" placeholder=post.image}}
+{{input value=author id="author" placeholder=post.author}}
+{{input value=timestamp id="timestamp" placeholder=post.timestamp}}
+<button {{action 'update' post}}>save</button>
