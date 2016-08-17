@@ -1,0 +1,13 @@
+<form>
+  <div class="form-group">
+       <label for="owner">Owner</label>
+       {{input value=title id="new-title"}}
+     </div>
+
+  {{input value=body id="new-body" }}
+  {{input value=category id="new-category" }}
+  {{input value=image id="new-image" }}
+  {{input value=author id="new-author" }}
+  {{input value=timestamp id="new-timestamp" }}
+  <button {{action 'new'}}>Add</button>
+</form>

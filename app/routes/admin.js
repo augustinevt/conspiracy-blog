@@ -11,11 +11,13 @@ export default Ember.Route.extend({
           post.set(key,params[key]);
         }
       });
-
-      console.log('upadate 3');
-      console.log(post);
       post.save();
       this.transitionTo('admin');
     },
+    save2(params){
+      var newPost = this.store.createRecord('post', params);
+      newPost.save();
+      this.transitionTo('admin');
+    }
   }
 });
