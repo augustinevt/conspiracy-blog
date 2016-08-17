@@ -1,0 +1,49 @@
+$primary: steelblue;
+$secondary: pink;
+
+.blog-title {
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+
+.post-wrap {
+  width: 1000px;
+  margin: 0 auto 20px auto;
+  .title-category {
+    h3.post-title {
+      font-family: Arial, sans-serif;
+      letter-spacing: 0.0125em;
+      font-size: 2em;
+      padding: 0;
+      margin: 0;
+    }
+    h5.post-category {
+      font-family: Arial, sans-serif;
+      text-transform: uppercase;
+      font-weight: lighter;
+      color: $primary;
+      font-size: 0.8em;
+      padding: 0;
+      margin: 0 0 8px 0;
+    }
+  }
+  .image-copy {
+    display: flex;
+    width: 1000px;
+    height: 200px;
+    .image-box {
+      height: 200px;
+      width: 200px;
+      overflow: hidden;
+      margin-right: 20px;
+      img {
+        height: 200px;
+        width: auto;
+      }
+    }
+    .post-body-copy {
+      width: 800px;
+      height: 200px;
+    }
+  }
+}
