@@ -2,7 +2,7 @@
 
 
 {{#each model as |post|}}
-  {{post-tile post=post update="update" }}
-
+  {{post-tile post=post }}
+  {{edit-post post=post update="update"}}
 {{/each}}
 {{new-post save1="save2"}}
